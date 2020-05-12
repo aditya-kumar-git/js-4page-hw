@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="hw4page.css">
+<head>
+    <title>4 in 1</title>
+</head>
+<body>
+
+    <div class="twoTwo">
+
+        <div class="partions" id="one">
+            <div id="one__picture">
+                <div id="one__picture__left">
+
+                </div>
+                <div id="one__picture__right">
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="partions" id="two">
+            <div id="two__selectors">
+                <div>
+                    <div>Select Page Number</div>
+                    <select id="pageSelector">
+                        <option value="one">Page 1</option>
+                        <option value="two">Page 2</option>
+                        <option value="three">Page 3</option>
+                        <option value="four">Page 4</option>
+                    </select>
+                </div>
+                <div>
+                    <div>Select Background Colour</div>
+                    <select id="colourSelector">
+                        <option value="Purple">Purple</option>
+                        <option value="Red">Red</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                </div>
+            </div>
+            <div id="two__button">
+                <button class="Btn" id="changeBtn">Change</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="test" class="twoTwo">
+        <div class="partions" id="three">
+
+            <a href="ThankYouPage.html"><marquee id="movingText" behavior="scroll" direction="left" scrollamount=10>Aditya Kumar</marquee></a>
+            <button id="stopBtn" class="Btn">Stop</button>
+
+        </div>
+    
+        <div class="partions" id="four">
+            <div>
+                <div>
+                    <div>Latitude:</div>
+                    <div id="lat"></div>
+                </div>
+                <div>
+                    <div>Longitude:</div>
+                    <div id="lon"></div>
+                </div>
+            </div>
+            <button id="locationBtn" class="Btn">Get Location</button>
+    
+        </div>
+    </div>
+
+</body>
+<script src="hw4page.js"></script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body
+            {
+                height: 100vh;
+                width: 100vw;
+                padding: 0;
+                margin: 0;
+                background-color: black;
+                color: white;
+                font-family: sans-serif;
+                font-size: 8vw;
+                letter-spacing: 5vw;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                animation-duration: 5000ms;
+                animation-fill-mode: forwards;
+                animation-name: glow;
+                
+            }
+        #thenks
+            {
+                animation-name: show;
+                animation-fill-mode: forwards;
+                animation-duration: 2000ms;
+            }
+        @keyframes show {
+            0%
+                {
+                    color: black;
+                }
+            100%
+                {
+                    color: white;
+                }
+        }
+        @keyframes glow {
+                    0%
+                        {
+                            
+                        }
+                    100%
+                        {
+                            text-shadow: 0 0 10px blue,0 0 20px blue,0 0 40px blue,0 0 60px blue;
+                        }
+                }
+    </style>
+<head>
+    <title>ThankYou</title>
+</head>
+<body>
+    <div id="thenks">thank you</div>
+</body>
+</html>
